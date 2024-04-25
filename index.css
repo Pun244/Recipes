@@ -1,0 +1,89 @@
+* {
+    background-color: #feefd6;
+}
+
+.header {
+    position: relative;
+    bottom: 20px;
+    font-family: "Times New Roman", Georgia, serif;
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+
+.foodimg img {
+    height: auto;
+    width: 550px;
+    border: 2px solid black;
+}
+
+.macimg img {
+    position:relative;
+    bottom: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.burgerimg img {
+    position: relative;
+    top: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ribimg img {
+    position: relative;
+    left: 668px;
+    top: 130px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    list-style: none;
+}
+
+div.recipes-list a {
+    font-family: "Times New Roman", Georgia, serif;
+    font-size: 35px;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.mac {
+    position: relative;
+    bottom: 880px;
+    right: 23px;
+    text-align: center;
+    
+}
+
+.burger {
+    position: relative;
+    bottom: 410px;
+    right: 22px;
+    text-align: center;
+    
+}
+
+.ribs {
+    position: relative;
+    top: 50px;
+    right: 25px;
+    text-align: center;
+
+    
+}
+
+.returntop a {
+    position: fixed;
+    left: 1680px;
+    bottom: 0px;
+    top: 810px;
+    color: black;
+    font-size: 25px;
+}
+
