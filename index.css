@@ -48,6 +48,7 @@ div.recipes-list a {
     font-size: 35px;
     color: black;
     font-weight: bold;
+    text-transform: uppercase;
 }
 
 .mac {
@@ -55,7 +56,6 @@ div.recipes-list a {
     bottom: 790px;
     right: 20px;
     text-align: center;
-    
 }
 
 .burger {
@@ -63,23 +63,19 @@ div.recipes-list a {
     bottom: 430px;
     right: 22px;
     text-align: center;
-    
 }
 
 .ribs {
     position: relative;
     bottom: 60px;
-    right: 20px;
+    right: 23px;
     text-align: center;
-
-    
 }
 
 .returntop a {
-    position: fixed;
-    left: 1680px;
-    bottom: 0px;
-    top: 810px;
+    position: relative;
+    left: 860px;
+    bottom: 50px;
     color: black;
     font-size: 25px;
 }
