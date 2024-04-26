@@ -9,13 +9,22 @@
     color: black;
 }
 
-.foodimg img {
+.recipes-card {
+    position: relative;
+    padding: 10px;
+    margin: auto;
+    width: auto;
+    background-color: #feefd6;
+    border: 2px solid black;
+}
+
+.recipes-images img {
     height: auto;
     width: 450px;
     border: 2px solid black;
 }
 
-.macimg img {
+.macimg {
     position:relative;
     bottom: 100px;
     display: block;
@@ -23,7 +32,7 @@
     margin-right: auto;
 }
 
-.burgerimg img {
+.burgerimg {
     position: relative;
     bottom: 40px;
     display: block;
@@ -31,7 +40,7 @@
     margin-right: auto;
 }
 
-.ribimg img {
+.ribimg {
     position: relative;
     top: 20px;
     display: block;
@@ -39,11 +48,11 @@
     margin-right: auto;
 }
 
-ul {
+ul.recipes-link {
     list-style: none;
 }
 
-div.recipes-list a {
+ul.recipes-link a {
     font-family: "Times New Roman", Georgia, serif;
     font-size: 35px;
     color: black;
@@ -78,9 +87,4 @@ div.recipes-list a {
     bottom: 50px;
     color: black;
     font-size: 25px;
-}
-
-.recipes-card {
-    background-color: #feefd6;
-    border: 2px solid black;
 }
