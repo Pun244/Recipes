@@ -9,10 +9,10 @@
     color: black;
 }
 
-.recipes-card {
+.container {
     position: relative;
     padding: 10px;
-    margin: auto;
+    margin-bottom: -20px;
     width: auto;
     background-color: #feefd6;
     border: 2px solid black;
@@ -81,10 +81,11 @@ ul.recipes-link a {
     text-align: center;
 }
 
-.returntop a {
+.returntop {
     position: relative;
     left: 860px;
     bottom: 50px;
     color: black;
     font-size: 25px;
+    font-weight: 700;
 }
