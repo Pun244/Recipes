@@ -1,12 +1,14 @@
+
 * {
-    line-height: 1.2;
+    line-break: 1.2;
     font-family: "Times New Roman", Times, serif;
 }
 
 .container {
-    padding: 10px;
-    border: 2px solid black;
     background-color: #feefd6;
+    border: 2px solid black;
+    margin: auto;
+    padding: 10px;
     text-align: center;
 }
 
@@ -26,52 +28,55 @@
     font-size: 35px;
 }
 
-.mainimg {
+.introduction-ingredients {
+    margin: auto;
+    width: 600px;
+    font-size: 20px;
+}
+
+.introduction-ingredients img {
     height: auto;
     width: 600px;
     border: 2px solid black;
 }
 
-.description {
-    margin: auto;
-    width: 600px;
-    font-size: 20px;
-}
-
-.ingredients {
-    margin: auto;
-    width: 600px;
-    font-size: 20px;
-}
-
 .ingredients-list {
     position: relative;
-    right: 30px;
+    right: 20px;
     list-style-position: inside;
     font-size: 25px;
 }
 
 .steps {
-    position: relative;
     margin: auto;
     width: 700px;
     font-size: 20px;
 }
 
+.steps .boiltheribs {
+    position: relative;
+    right: 5px;
+}
+
+.steps .bake {
+    position: relative;
+    right: 5px;
+}
+
 .stepsimage {
     margin: auto;
     width: 800px;
-    font-size: 20px;
-    list-style-position: inside;
 }
 
-.direction {
-    font-size: 30px;
+.stepsimage h1 {
+    font-size: 45px;
 }
 
 .stepsimagelist {
     position: relative;
     right: 15px;
+    font-size: 20px;
+    list-style-position: inside;
 }
 
 .stepsimagelist img {
@@ -80,10 +85,6 @@
     height: auto;
     width: 500px;
     border: 2px solid black;
-}
-
-.stepsimagefirstline {
-    margin-bottom: 20px;
 }
 
 .returntop {

@@ -83,9 +83,12 @@ ul.recipes-link a {
 
 .returntop {
     position: relative;
-    left: 860px;
-    bottom: 50px;
-    color: black;
-    font-size: 25px;
-    font-weight: 700;
+    left: 870px;
+    bottom: 40px;
+}
+
+.returntop .returntopbutton {
+    background-color: white;
+    font-weight: 500;
+    font-size: 20px;
 }
