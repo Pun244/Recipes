@@ -1,8 +1,17 @@
-
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-color: #feefd6;
+}
 
 .header {
-    position: relative;
-    bottom: 50px;
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 1em;
+    margin-right: auto;
+    margin-left: auto;
     font-family: "Times New Roman", Georgia, serif;
     text-align: center;
     font-size: 50px;
@@ -10,49 +19,13 @@
 }
 
 .container {
-    position: relative;
     padding: 10px;
-    margin-bottom: -20px;
-    width: auto;
-    background-color: #feefd6;
-    border: 2px solid black;
+    text-align: center;
 }
 
-.recipes-images img {
-    height: auto;
-    width: 450px;
-    border: 2px solid black;
-}
-
-.macimg {
-    position:relative;
-    bottom: 100px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.burgerimg {
-    position: relative;
-    bottom: 40px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.ribimg {
-    position: relative;
-    top: 20px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-ul.recipes-link {
-    list-style: none;
-}
-
-ul.recipes-link a {
+.recipes a {
+    margin: 1em;
+    display: inline-block;
     font-family: "Times New Roman", Georgia, serif;
     font-size: 35px;
     color: black;
@@ -60,35 +33,26 @@ ul.recipes-link a {
     text-transform: uppercase;
 }
 
-.mac {
-    position: relative;
-    bottom: 790px;
-    right: 20px;
-    text-align: center;
+.recipes img {
+    height: auto;
+    width: 500px;
+    border: 2px solid black;
 }
 
-.burger {
-    position: relative;
-    bottom: 430px;
-    right: 22px;
-    text-align: center;
+.macimg {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.ribs {
-    position: relative;
-    bottom: 60px;
-    right: 23px;
-    text-align: center;
+.burgerimg {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.returntop {
-    position: relative;
-    left: 870px;
-    bottom: 40px;
-}
-
-.returntop .returntopbutton {
-    background-color: white;
-    font-weight: 500;
-    font-size: 20px;
+.ribimg {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
 }
