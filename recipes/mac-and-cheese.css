@@ -2,48 +2,53 @@
 * {
     line-height: 1.2;
     font-family: "Times New Roman", Times, serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: #feefd6;
 }
 
 .container {
     padding: 10px;
-    border: 2px solid black;
-    background-color: #feefd6;
     text-align: center;
 }
 
-.header {
+
+.headertext {
+    margin-bottom: 10px;
     font-size: 25px;
 }
 
-.returnhome {
-    position: absolute;
-    left: 50px;
-    bottom: 785px;
-}
-
-.returnhome .returnhomebutton{
-    background-color: white;
-    font-weight: 500;
+.returnhomebutton,
+a {
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: -20px;
+    padding-top: 10px;
+    background-color: #feefd6;
+    font-weight: bold;
     font-size: 35px;
+    color: black;
+    border: 0px;
 }
 
 .mainimg {
+    margin: 10px;
     height: auto;
     width: 500px;
     border: 2px solid black;
 }
 
 .description {
-    position: relative;
-    left: 635px;
+    padding: 10px;
+    margin: auto;
     width: 600px;
     font-size: 20px;
-    word-wrap: break-word;
 }
 
 .ingredients {
-    position: relative;
-    left: 635px;
+    padding: 10px;
+    margin: auto;
     list-style-position: inside;
     width: 600px;
     font-size: 20px;
@@ -51,26 +56,29 @@
 
 .ingredients-list {
     font-size: 25px;
-    position: relative;
-    right: 30px;
+    padding: 1em;
+    margin: auto;
 }
 
 .steps {
-    position: relative;
-    left: 590px;
+    margin: auto;
+    padding: 10px;
     width: 700px;
     font-size: 20px;
 }
 
 .insteps {
-    position: relative;
-    left: 35px;
-    width: 600px;
+    padding: 2em;
+}
+
+.insteps2,
+.insteps3,
+.insteps4 {
+    padding: 1em;
 }
 
 .stepsimage {
-    position: relative;
-    left: 540px;
+    margin: auto;
     width: 800px;
     list-style-position: inside;
 }
@@ -83,30 +91,19 @@
     width: 500px;
 }
 
-.instepsimage {
-    position: relative;
-    right: 20px;
-    font-size: 20px;
-}
-
 .direction {
     font-size: 25px;
 }
 
-.stepimg1 {
-    position: relative;
-    bottom: 20px;
-}
-
-.returntop {
-    position: relative;
-    right: 10px;
-    top: 5px;
-}
-
-.returntop .returntopbutton {
-    background-color: white;
-    font-weight: 500;
+.instepsimage {
     font-size: 20px;
+    padding: 2em;
+}
+
+.returntopbutton {
     margin: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border: 0px;
+    font-size: 30px;
 }
