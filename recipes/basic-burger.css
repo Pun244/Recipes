@@ -1,100 +1,108 @@
+
 * {
     line-height: 1.2;
     font-family: "Times New Roman", Times, serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: #feefd6;
 }
 
 .container {
     padding: 10px;
-    border: 2px solid black;
-    background-color: #feefd6;
     text-align: center;
 }
 
-.header {
+.headertext {
+    margin-bottom: 10px;
     font-size: 25px;
 }
 
-.returnhome {
-    position: absolute;
-    left: 50px;
-    bottom: 785px;
-}
-
-.returnhome .returnhomebutton{
-    background-color: white;
-    font-weight: 500;
+.returnhomebutton,
+a {
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: -20px;
+    padding-top: 10px;
+    background-color: #feefd6;
+    font-weight: bold;
     font-size: 35px;
+    color: black;
+    border: 0px;
 }
 
 .mainimg {
+    margin: 10px;
     height: auto;
     width: 600px;
     border: 2px solid black;
 }
 
 .description {
+    padding: 10px;
     margin: auto;
     width: 600px;
     font-size: 20px;
 }
 
 .ingredients {
+    padding: 10px;
     margin: auto;
+    list-style-position: inside;
     width: 600px;
     font-size: 20px;
 }
 
 .ingredients-list {
-    position: relative;
-    right: 30px;
-    list-style-position: inside;
     font-size: 25px;
+    padding: 1em;
+    margin: auto;
 }
 
 .steps {
-    position: relative;
     margin: auto;
+    padding: 10px;
     width: 700px;
     font-size: 20px;
+}
+
+.insteps,
+.insteps2,
+.insteps3 {
+    padding: 1em;
 }
 
 .stepsimage {
     margin: auto;
     width: 800px;
-    font-size: 20px;
     list-style-position: inside;
 }
 
-.direction {
-    font-size: 30px;
+.stepsimage img {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    height: auto;
+    width: 500px;
 }
 
 .stepsimagelist {
-    position: relative;
-    right: 15px;
-}
-
-.stepsimagelist img {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    height: auto;
-    width: 500px;
-    border: 2px solid black;
-}
-
-.stepsimagefirstline {
-    margin-bottom: 20px;
-}
-
-.returntop {
-    position: relative;
-    right: 10px;
-    top: 5px;
-}
-
-.returntop .returntopbutton {
-    background-color: white;
-    font-weight: 500;
     font-size: 20px;
+    padding: 2em;
+}
+
+.imagelistfirstline {
+    margin-bottom: 20px;
+}
+
+.direction {
+    font-size: 25px;
+}
+
+.returntopbutton {
     margin: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border: 0px;
+    font-size: 30px;
 }
