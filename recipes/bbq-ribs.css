@@ -1,101 +1,106 @@
 
 * {
-    line-break: 1.2;
+    line-height: 1.2;
     font-family: "Times New Roman", Times, serif;
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    background-color: #feefd6;
 }
 
 .container {
-    background-color: #feefd6;
-    border: 2px solid black;
-    margin: auto;
     padding: 10px;
     text-align: center;
 }
 
-.header {
+.headertext {
+    margin-bottom: 10px;
     font-size: 25px;
 }
 
-.returnhome {
-    position: absolute;
-    left: 50px;
-    bottom: 785px;
-}
-
-.returnhome .returnhomebutton{
-    background-color: white;
-    font-weight: 500;
+.returnhomebutton,
+a {
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: -20px;
+    padding-top: 10px;
+    background-color: #feefd6;
+    font-weight: bold;
     font-size: 35px;
+    color: black;
+    border: 0px;
 }
 
-.introduction-ingredients {
-    margin: auto;
-    width: 600px;
-    font-size: 20px;
-}
-
-.introduction-ingredients img {
+.mainimg {
+    margin: 10px;
     height: auto;
     width: 600px;
     border: 2px solid black;
 }
 
-.ingredients-list {
-    position: relative;
-    right: 20px;
+.description {
+    padding: 10px;
+    margin: auto;
+    width: 600px;
+    font-size: 20px;
+}
+
+.ingredients {
+    padding: 10px;
+    margin: auto;
     list-style-position: inside;
+    width: 600px;
+    font-size: 20px;
+}
+
+.ingredients-list {
     font-size: 25px;
+    padding: 1em;
+    margin: auto;
 }
 
 .steps {
     margin: auto;
+    padding: 10px;
     width: 700px;
     font-size: 20px;
 }
 
-.steps .boiltheribs {
-    position: relative;
-    right: 5px;
-}
-
-.steps .bake {
-    position: relative;
-    right: 5px;
+.insteps,
+.insteps2,
+.insteps3,
+.insteps4,
+.insteps5 {
+    padding: 1em;
 }
 
 .stepsimage {
     margin: auto;
     width: 800px;
-}
-
-.stepsimage h1 {
-    font-size: 45px;
-}
-
-.stepsimagelist {
-    position: relative;
-    right: 15px;
-    font-size: 20px;
     list-style-position: inside;
 }
 
-.stepsimagelist img {
+.stepsimage img {
     margin-top: 20px;
     margin-bottom: 20px;
+    border: 2px solid black;
     height: auto;
     width: 500px;
-    border: 2px solid black;
 }
 
-.returntop {
-    position: relative;
-    right: 10px;
-    top: 5px;
-}
-
-.returntop .returntopbutton {
-    background-color: white;
-    font-weight: 500;
+.stepsimagelist {
     font-size: 20px;
+    padding: 2em;
+}
+
+.direction {
+    font-size: 25px;
+}
+
+.returntopbutton {
     margin: 10px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border: 0px;
+    font-size: 30px;
 }
